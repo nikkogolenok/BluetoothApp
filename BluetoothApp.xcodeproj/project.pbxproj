@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44134CB92AAF3BA0006C0A10 /* BluetoothAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44134CB82AAF3BA0006C0A10 /* BluetoothAppApp.swift */; };
+		44134CBB2AAF3BA0006C0A10 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44134CBA2AAF3BA0006C0A10 /* OnboardingView.swift */; };
+		44134CBD2AAF3BA4006C0A10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44134CBC2AAF3BA4006C0A10 /* Assets.xcassets */; };
+		44134CC02AAF3BA4006C0A10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44134CBF2AAF3BA4006C0A10 /* Preview Assets.xcassets */; };
+		447D83B92AAF58D2005D5E35 /* FontStyleColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447D83B82AAF58D2005D5E35 /* FontStyleColors.swift */; };
+		447D83BB2AAF982A005D5E35 /* Fancy3DotsIndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447D83BA2AAF982A005D5E35 /* Fancy3DotsIndexView.swift */; };
+		447D83BD2AAF9C1C005D5E35 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 447D83BC2AAF9C1C005D5E35 /* Rubik-Regular.ttf */; };
+		447D83BF2AAF9C57005D5E35 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 447D83BE2AAF9C57005D5E35 /* Rubik-Bold.ttf */; };
+		447D83C82AAFC3A6005D5E35 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447D83C72AAFC3A6005D5E35 /* MainView.swift */; };
+		4496F9712AAF406D001E9F35 /* OnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496F9702AAF406D001E9F35 /* OnboardView.swift */; };
+		4496F9732AAF451F001E9F35 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4496F9722AAF451F001E9F35 /* PaywallView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44134CB52AAF3BA0006C0A10 /* BluetoothApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44134CB82AAF3BA0006C0A10 /* BluetoothAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothAppApp.swift; sourceTree = "<group>"; };
+		44134CBA2AAF3BA0006C0A10 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		44134CBC2AAF3BA4006C0A10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44134CBF2AAF3BA4006C0A10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		447D83B82AAF58D2005D5E35 /* FontStyleColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontStyleColors.swift; sourceTree = "<group>"; };
+		447D83BA2AAF982A005D5E35 /* Fancy3DotsIndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fancy3DotsIndexView.swift; sourceTree = "<group>"; };
+		447D83BC2AAF9C1C005D5E35 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		447D83BE2AAF9C57005D5E35 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		447D83C02AAF9D1E005D5E35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		447D83C72AAFC3A6005D5E35 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4496F9702AAF406D001E9F35 /* OnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardView.swift; sourceTree = "<group>"; };
+		4496F9722AAF451F001E9F35 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44134CB22AAF3BA0006C0A10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44134CAC2AAF3B9F006C0A10 = {
+			isa = PBXGroup;
+			children = (
+				44134CB72AAF3BA0006C0A10 /* BluetoothApp */,
+				44134CB62AAF3BA0006C0A10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44134CB62AAF3BA0006C0A10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44134CB52AAF3BA0006C0A10 /* BluetoothApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44134CB72AAF3BA0006C0A10 /* BluetoothApp */ = {
+			isa = PBXGroup;
+			children = (
+				447D83C12AAFAE05005D5E35 /* Views */,
+				447D83C62AAFAEC5005D5E35 /* Fonts */,
+				447D83C02AAF9D1E005D5E35 /* Info.plist */,
+				44134CBC2AAF3BA4006C0A10 /* Assets.xcassets */,
+				44134CBE2AAF3BA4006C0A10 /* Preview Content */,
+			);
+			path = BluetoothApp;
+			sourceTree = "<group>";
+		};
+		44134CBE2AAF3BA4006C0A10 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				44134CBF2AAF3BA4006C0A10 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		447D83C12AAFAE05005D5E35 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				447D83C22AAFAE1B005D5E35 /* BluetoothAppApp */,
+				447D83C32AAFAE33005D5E35 /* OnboardingView */,
+				447D83C42AAFAE4E005D5E35 /* PaywallView */,
+				447D83C52AAFAE62005D5E35 /* MainView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		447D83C22AAFAE1B005D5E35 /* BluetoothAppApp */ = {
+			isa = PBXGroup;
+			children = (
+				44134CB82AAF3BA0006C0A10 /* BluetoothAppApp.swift */,
+			);
+			path = BluetoothAppApp;
+			sourceTree = "<group>";
+		};
+		447D83C32AAFAE33005D5E35 /* OnboardingView */ = {
+			isa = PBXGroup;
+			children = (
+				44134CBA2AAF3BA0006C0A10 /* OnboardingView.swift */,
+				4496F9702AAF406D001E9F35 /* OnboardView.swift */,
+				447D83BA2AAF982A005D5E35 /* Fancy3DotsIndexView.swift */,
+			);
+			path = OnboardingView;
+			sourceTree = "<group>";
+		};
+		447D83C42AAFAE4E005D5E35 /* PaywallView */ = {
+			isa = PBXGroup;
+			children = (
+				4496F9722AAF451F001E9F35 /* PaywallView.swift */,
+			);
+			path = PaywallView;
+			sourceTree = "<group>";
+		};
+		447D83C52AAFAE62005D5E35 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				447D83C72AAFC3A6005D5E35 /* MainView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		447D83C62AAFAEC5005D5E35 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				447D83BC2AAF9C1C005D5E35 /* Rubik-Regular.ttf */,
+				447D83BE2AAF9C57005D5E35 /* Rubik-Bold.ttf */,
+				447D83B82AAF58D2005D5E35 /* FontStyleColors.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44134CB42AAF3BA0006C0A10 /* BluetoothApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44134CC32AAF3BA4006C0A10 /* Build configuration list for PBXNativeTarget "BluetoothApp" */;
+			buildPhases = (
+				44134CB12AAF3BA0006C0A10 /* Sources */,
+				44134CB22AAF3BA0006C0A10 /* Frameworks */,
+				44134CB32AAF3BA0006C0A10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BluetoothApp;
+			productName = BluetoothApp;
+			productReference = 44134CB52AAF3BA0006C0A10 /* BluetoothApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44134CAD2AAF3B9F006C0A10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					44134CB42AAF3BA0006C0A10 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 44134CB02AAF3BA0006C0A10 /* Build configuration list for PBXProject "BluetoothApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44134CAC2AAF3B9F006C0A10;
+			productRefGroup = 44134CB62AAF3BA0006C0A10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44134CB42AAF3BA0006C0A10 /* BluetoothApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44134CB32AAF3BA0006C0A10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44134CC02AAF3BA4006C0A10 /* Preview Assets.xcassets in Resources */,
+				447D83BF2AAF9C57005D5E35 /* Rubik-Bold.ttf in Resources */,
+				447D83BD2AAF9C1C005D5E35 /* Rubik-Regular.ttf in Resources */,
+				44134CBD2AAF3BA4006C0A10 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44134CB12AAF3BA0006C0A10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447D83B92AAF58D2005D5E35 /* FontStyleColors.swift in Sources */,
+				447D83C82AAFC3A6005D5E35 /* MainView.swift in Sources */,
+				4496F9712AAF406D001E9F35 /* OnboardView.swift in Sources */,
+				4496F9732AAF451F001E9F35 /* PaywallView.swift in Sources */,
+				44134CBB2AAF3BA0006C0A10 /* OnboardingView.swift in Sources */,
+				44134CB92AAF3BA0006C0A10 /* BluetoothAppApp.swift in Sources */,
+				447D83BB2AAF982A005D5E35 /* Fancy3DotsIndexView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		44134CC12AAF3BA4006C0A10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44134CC22AAF3BA4006C0A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44134CC42AAF3BA4006C0A10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BluetoothApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 84N4PJWN7L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BluetoothApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nikita-Kogolenok.BluetoothApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44134CC52AAF3BA4006C0A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BluetoothApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 84N4PJWN7L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BluetoothApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nikita-Kogolenok.BluetoothApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44134CB02AAF3BA0006C0A10 /* Build configuration list for PBXProject "BluetoothApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44134CC12AAF3BA4006C0A10 /* Debug */,
+				44134CC22AAF3BA4006C0A10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44134CC32AAF3BA4006C0A10 /* Build configuration list for PBXNativeTarget "BluetoothApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44134CC42AAF3BA4006C0A10 /* Debug */,
+				44134CC52AAF3BA4006C0A10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44134CAD2AAF3B9F006C0A10 /* Project object */;
+}
